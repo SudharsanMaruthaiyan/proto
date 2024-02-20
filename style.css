@@ -144,6 +144,16 @@ body{
     background-color: #000000;
     margin-right: 5px;
     border-radius: 50px;
+    position: relative;
+}
+.html-range::after{
+    content: " ";
+    width: 80%;
+    height: 3px;
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    bottom: 0;
 }
 
 .body-ctn:hover{
@@ -180,7 +190,18 @@ body{
 }
 
 
+/* service section  */
 
+#service-card{
+    border: 2px solid #323946;
+    transition: 0.5s;
+
+}
+#service-card:hover{
+    border: 2px solid #0ef;
+    transition: 0.5s;
+    transform: scale(1.02);
+}
 
 
 /* media queries  */
@@ -193,10 +214,10 @@ body{
         justify-content: center;
         /* padding-top: 70px; */
     }
-    #hero-img img{
-        /* width: 200px; */
-        /* padding-bottom: 15px; */
-    }
+    /* #hero-img img{
+        width: 200px;
+        padding-bottom: 15px;
+    } */
     .hero-img{
         animation-name: updown;
         animation-duration:2s;
