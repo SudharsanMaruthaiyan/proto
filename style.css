@@ -195,11 +195,11 @@ body{
         /* margin-top: 50px; */
         display: flex;
         justify-content: center;
-        padding-top: 70px;
+        /* padding-top: 70px; */
     }
     #hero-img img{
-        width: 200px;
-        padding-bottom: 15px;
+        /* width: 200px; */
+        /* padding-bottom: 15px; */
     }
     .hero-img{
         animation-name: updown;
