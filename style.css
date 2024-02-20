@@ -245,11 +245,11 @@ body{
     }
 
     #abt-ctn h3{
-        font-size: 20px;
+        /* font-size: 20px; */
         padding: 8px 0px;
     }
     #abt-ctn p{
-        font-size: 14px;
+        /* font-size: 14px; */
         padding-bottom: 5px;
     }
     
