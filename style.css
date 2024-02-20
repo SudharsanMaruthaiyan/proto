@@ -85,15 +85,12 @@ body{
 }
 
 .socila-media .fa-brands{
-    font-size: 26px;
+    font-size: 30px;
+    background: none;
+    color: #0ef;
     background: none;
 }
-.fa-brands{
-    color: #0ef;
-    border-radius: 20px;
-    border: 2px solid #0ef;
-    border-radius: 0px;
-}
+
 
 .fa-brands:hover{
     box-shadow: 0px 0px 10px #0ef;
@@ -245,11 +242,11 @@ body{
     }
 
     #abt-ctn h3{
-        /* font-size: 20px; */
+        font-size: 20px;
         padding: 8px 0px;
     }
     #abt-ctn p{
-        /* font-size: 14px; */
+        font-size: 14px;
         padding-bottom: 5px;
     }
     
