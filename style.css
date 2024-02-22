@@ -206,7 +206,7 @@ body{
 /* porto section  */
 
 
-.card-4{
+/* .card-4{
     width: 300px;
     height: 400px;
     position: relative;
@@ -247,11 +247,12 @@ body{
     top: 0;
     left: 0;
     object-fit: cover;
-    /* border-radius: 10px; */
-    /* padding-bottom: 12px; */
+} */
+
+#port-card{
+    background: none;
+    box-shadow: none;
 }
-
-
 
 
 
